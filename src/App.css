@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+}
+
+.quiz__area {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz__component {
+  width: min(50rem, 90%);
+  background-color: #262626;
+  padding: 1em;
+}
+
+.question,
+.answer {
+  padding: 1em 2em;
+}
+
+.question {
+  background-color: #fff;
+  margin-bottom: 1.5em;
+}
+
+.answer__area {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+}
+
+.answer {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+/* Bobo Apaixonado */
+.amor {
+  position: absolute;
+  inset: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-size: 3rem;
+}
