@@ -104,7 +104,7 @@ export function App() {
               </button>
             </div>
           ) : (
-            <div>
+            <div className="output">
               <h1 className="question">
                 {questions[currentQuestion].questionText}
               </h1>
