@@ -137,11 +137,20 @@ h6 {
 
 .score {
   margin-bottom: 1em;
+  color: #262626;
 }
 
 .reset-btn {
+  border: 1px solid #262626;
+  font-weight: bold;
+  outline: none;
   padding: 1em 2em;
   cursor: pointer;
+  transition: 0.2s;
+}
+
+.reset-btn:hover {
+  transform: scale(1.1);
 }
 
 /* Bobo Apaixonado */
